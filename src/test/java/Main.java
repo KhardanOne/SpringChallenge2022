@@ -11,11 +11,11 @@ public class Main {
         //        gameRunner.setSeed(-8289918975308209200l);
 
         gameRunner.addAgent(
-            compileJava("starterAIs/Starter.java"),
+            "player1.exe",
             "Player one"
         );
         gameRunner.addAgent(
-            "python3 starterAIs/starter.py",
+            "player2.exe",
             "Player two"
         );
 
