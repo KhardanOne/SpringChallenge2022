@@ -11,15 +11,15 @@ public class Main {
         //        gameRunner.setSeed(-8289918975308209200l);
 
         gameRunner.addAgent(
-            "player1.exe",
+            "AIs/player1.exe",
             "Player one"
         );
         gameRunner.addAgent(
-            "player2.exe",
+            "AIs/player2.exe",
             "Player two"
         );
 
-        gameRunner.setLeagueLevel(1);
+        gameRunner.setLeagueLevel(6);
 
         gameRunner.start();
     }
